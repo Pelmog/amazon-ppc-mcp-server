@@ -17,6 +17,9 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+]
 
 [project.urls]
 Homepage = "https://pelmoggian.github.io/amazon-ppc-mcp-server/"
