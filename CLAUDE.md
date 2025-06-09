@@ -46,3 +46,7 @@ The project is currently in early development with placeholder code in `foo.py`.
 - **Type checking**: mypy with strict settings
 - **Pre-commit**: Automatically runs code quality checks
 - **CI/CD**: GitHub Actions with tox for multi-version testing
+
+## Development Best Practices
+
+- When accessing GitHub, preferentially use the 'gh' command in bash

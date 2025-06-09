@@ -2,8 +2,30 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh auth:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(gh api:*)",
+      "mcp__context7-mcp__resolve-library-id",
+      "mcp__context7-mcp__get-library-docs",
+      "mcp__brave-search__brave_web_search",
+      "WebFetch(domain:advertising.amazon.com)",
+      "Bash(mkdir:*)",
+      "Bash(uv run:*)",
+      "Bash(uv add:*)",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(ls:*)",
+      "Bash(grep:*)"
     ],
     "deny": []
-  }
+  },
+  "enabledMcpjsonServers": [
+    "brave-search",
+    "context7-mcp",
+    "sequential-thinking",
+    "memory"
+  ]
 }
